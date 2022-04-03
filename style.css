@@ -1,0 +1,393 @@
+html {
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation-container {
+  border-top: 4px solid rgb(255, 217, 0);
+  position: relative;
+  background-color: #352d2f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  height: 80px;
+  color: rgb(255, 217, 0);
+  position: relative;
+  font-family: "Hurricane", cursive;
+  font-family: "Inspiration", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.lgtx {
+  color: rgb(255, 217, 0);
+}
+.regist {
+  margin: 0;
+  padding: 0;
+  min-height: 500px;
+  background-image: url(https://wttc.org/DesktopModules/MVC/NewsArticleList/images/141_20201013185512_Consumer%20Survey%20Finds%2070%20Percent%20of%20Travelers%20Plan%20to%20Holiday%20in%202021.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  margin: 10px;
+}
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  margin: 10px;
+}
+#fname {
+  background-color: white;
+  width: 200px;
+  height: 40px;
+}
+.form-area {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  height: 150px;
+  position: absolute;
+  bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputwraperdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.btnn {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(255, 217, 0);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  justify-content: center;
+  height: 46px;
+}
+
+.card {
+  background-color: rgb(27, 23, 23);
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27, 23, 23);
+  width: 250px;
+  height: 220px;
+  border: 1px solid rgb(255, 217, 0);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: white;
+  align-items: center;
+}
+.card-area {
+  display: flex;
+  justify-content: space-around;
+}
+.num {
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  color: rgb(255, 217, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.num-head {
+  color: rgb(255, 217, 0);
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+.num-text {
+  text-align: center;
+  font-size: 14px;
+
+  color: rgb(134, 123, 123);
+}
+.triple {
+  justify-content: space-between;
+  background-color: rgb(27, 23, 23);
+  display: flex;
+  flex-grow: 4;
+}
+.read {
+  align-items: center;
+  background-color: rgb(255, 217, 0);
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 30px;
+}
+.download {
+  align-items: center;
+  background-color: rgb(27, 23, 23);
+  color: rgb(255, 217, 0);
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 217, 0);
+  margin: 30px;
+}
+.gallery {
+  background-color: rgb(27, 23, 23);
+}
+.gallery-area {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.absolut {
+  display: block;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 8px 5px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(27, 23, 23);
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(255, 217, 0);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  color: white;
+  align-items: center;
+  margin: 5px;
+}
+.card-img {
+  width: 300px;
+  height: 300px;
+}
+.gallery-end {
+  background-color: rgb(27, 23, 23);
+}
+.bigshot {
+  background-color: rgb(27, 23, 23);
+  margin: 0;
+  padding: 0;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bgshot {
+  background-image: url(./jpeg/jpeg10.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 50px;
+  height: 250px;
+  width: 100%;
+  background-position: 0 61%;
+}
+.lastsection {
+  position: relative;
+  background-image: url(./jpeg/cover.jpeg);
+  margin: 0;
+
+  min-height: 500px;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+.roundCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.round-img {
+  display: flex;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  box-shadow: #524f4f;
+  justify-content: center;
+}
+.center-round {
+  display: flex;
+  border-radius: 200px;
+  width: 150px;
+  height: 150px;
+  box-shadow: #524f4f;
+  justify-content: center;
+  margin: 10px;
+}
+.mask {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.without-mask {
+  position: relative;
+  z-index: 9999;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  padding: 50px 0;
+  color: rgb(255, 217, 0);
+}
+
+.texting {
+  color: rgb(204, 200, 200);
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+.yellow {
+  color: rgb(255, 217, 0);
+  font-size: 14px;
+  text-align: center;
+}
+
+.gallery-end {
+  background-color: rgb(27, 23, 23);
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+.pic {
+  display: flex;
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  align-items: end;
+}
+.footer {
+  display: flex;
+  flex-flow: column;
+  background-image: url(./jpeg/footer.jpeg);
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  position: relative;
+  padding: 20px 50px;
+  color: white;
+  font-weight: 200;
+}
+.column-group {
+  display: flex;
+  flex-flow: row;
+}
+.footer > div:not(.mask) {
+  z-index: 30;
+}
+.footer ul li i {
+  margin-right: 15px;
+}
+.footer ul {
+  display: block;
+  margin-right: 15px;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.f-head {
+  margin: 0;
+}
+.f-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 12px;
+}
+.contact {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+}
+.contact p {
+  margin: 0;
+}
+.about {
+  display: flex;
+  width: 20%;
+  flex-flow: column;
+}
+.discover {
+  width: 20%;
+  display: flex;
+  flex-flow: column;
+}
+.socials {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+}
